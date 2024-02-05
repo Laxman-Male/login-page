@@ -1,0 +1,73 @@
+/* This time using different way to design the particular element not to many ID's */
+body{
+    background-color: rgb(22, 22, 22);
+
+}
+#outer_box1{
+     display: flex;
+    justify-content: center;
+    /* background-color: rgb(22, 22, 22); */
+ }
+#outer_box{
+     height: auto;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(16, 15, 15, 0.926);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#outer_box img{
+     border-radius: 90px;
+    margin: 20px;
+}
+#outer_box h3{
+    font-family: Arial, Helvetica, sans-serif;
+     margin: 5px;
+    color: white;
+}
+#outer_box h5{
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+    color: rgb(144, 204, 4);
+    margin: 5px;
+}
+#outer_box p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+ }
+ #frontend_line{
+    padding:15px 0px;
+    color: white;
+ }
+ .boxes{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+     background-color: rgb(53, 51, 51);
+    border-radius: 9px;
+    height: 31px;
+    text-align: center;
+     padding-top: 10px;
+    width: 285px;
+    color: white;
+ }
+ .boxes:hover{
+    background-color:rgb(144, 204, 4) ;
+    cursor: pointer;
+     color:black ;
+ }
+ @media (max-width:320px) {
+    #outer_box{
+        width: 230px;
+    }
+    .boxes{
+        width: 175px;
+    }
+    #frontend_line{
+        font-size: 12px;
+        padding: 5px 0px;
+    }
+ }
+ 
